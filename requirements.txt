@@ -1,0 +1,13 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+asyncpg>=0.28.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+cryptography>=41.0.0  # Para encriptar contraseñas de equipos
+jinja2>=3.1.0         # Para renderizar HTML del estado de cuenta
+weasyprint>=60.0.0    # Para convertir ese HTML a PDF
